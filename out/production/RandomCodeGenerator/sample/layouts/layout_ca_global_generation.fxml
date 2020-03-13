@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane xmlns="http://javafx.com/javafx/8.0.999-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.GlobalGenerationController">
+    <VBox>
+        <HBox>
+            <VBox maxWidth="1.7976931348623157E308" minWidth="-Infinity">
+                <Label fx:id="caGeneratorTypeLb" text="CA Generator Type">
+                    <VBox.margin>
+                        <Insets bottom="10" right="10.0" />
+                    </VBox.margin>
+                </Label>
+                <ChoiceBox fx:id="caGeneratorTypeCb" maxHeight="20.0" maxWidth="200.0" prefWidth="200.0">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </ChoiceBox>
+            <HBox.margin>
+               <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </HBox.margin>
+            </VBox>
+        </HBox>
+
+        <VBox prefWidth="500.0">
+            <TextArea fx:id="resultTa" prefWidth="200.0" >
+                <VBox.margin>
+                    <Insets bottom="10.0" left="10.0" right="10.0" />
+                </VBox.margin>
+            </TextArea>
+        </VBox>
+        <Button fx:id="generateBtn" maxWidth="Infinity" onAction="#generate" text="Generate">
+            <VBox.margin>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+            </VBox.margin>
+        </Button>
+    </VBox>
+</Pane>
