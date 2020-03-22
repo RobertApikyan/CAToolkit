@@ -21,8 +21,8 @@ public class GlobalCaCodeParallelGeneration {
 
     private static void globalParallelGeneration() {
 
-        final FibonacciParallelLFSR g1 = new FibonacciParallelLFSR();
-        final FibonacciParallelLFSR g2 = new FibonacciParallelLFSR();
+        final FibonacciParallelLFSR g1 = new FibonacciParallelLFSR(false);
+        final FibonacciParallelLFSR g2 = new FibonacciParallelLFSR(false);
 
         List<SatelliteOutputCollector> phaseSelectors = createSatelliteCollectors(COMPLETE_CA);
 

@@ -3,7 +3,13 @@ package sample.controllers;
 import javafx.application.Application;
 import javafx.fxml.FXML;
 import javafx.stage.Stage;
-import sample.*;
+import sample.caGlobalGeneration.CaGlobalGenerationProgram;
+import sample.caGenerator.CaProgram;
+import sample.correlationProgram.CorrelationProgram;
+import sample.gaGenerator.GaProgram;
+import sample.lfsrFastCorrelation.LfsrFastCorrelation;
+import sample.lfsrGenerator.LfsrGeneratorProgram;
+import sample.lfsrStatePath.LfsrStatePathProgram;
 
 public class LauncherController  {
 

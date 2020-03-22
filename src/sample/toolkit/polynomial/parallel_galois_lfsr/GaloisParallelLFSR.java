@@ -10,7 +10,8 @@ import java.util.Map;
 
 public class GaloisParallelLFSR extends ParallelLfsr {
 
-    public GaloisParallelLFSR() {
+    public GaloisParallelLFSR(){
+        this(false);
     }
 
     public GaloisParallelLFSR(boolean skipParallelBits) {
@@ -18,21 +19,21 @@ public class GaloisParallelLFSR extends ParallelLfsr {
     }
 
     @Override
-    protected Map<Integer, PolynomialState> calculateParallelSteps(int[] feedbackPositions, Integer tabsCount, int step) {
-        Map<Integer, PolynomialState> states = new HashMap<Integer, PolynomialState>();
-
-        // Put the So state
-        states.put(step, null);
-        // Define the required states
-        for (int feedbackPosition : feedbackPositions) {
-            states.put(step + feedbackPosition - 1, null);
-        }
-
-        return states;
+    protected Lfsr createLfsr(int[] feedbackPositions, int[] outputRegisters, int tabsCount) {
+        // Վերադարձնում է նոր Ֆիբոնաչիի ռեգիստրի դասի օբյեկտ համապատասխան տրված
+        // պարամետրերի
+        return new GaloisLfsr(feedbackPositions, tabsCount, outputRegisters);
     }
 
     @Override
-    protected Lfsr createLfsr(int[] exOrIndexes, int[] outputRegisters, int registersCount) {
-        return new GaloisLfsr(exOrIndexes, registersCount, outputRegisters);
+    protected Map<Integer, PolynomialState> calculateParallelSteps(int[] feedbackPositions, Integer tabsCount, int step) {
+        Map<Integer, PolynomialState> states = new HashMap<Integer, PolynomialState>();
+        // Որոշվում են գեներացիայի այն քայլերի համարները որոնք անհրաժեշտ են
+        // զւոգահեռացման բանաձևի իրականացման համար
+        states.put(step, null);
+        for (int feedbackPosition : feedbackPositions) {
+            states.put(step + feedbackPosition - 1, null);
+        }
+        return states;
     }
 }

@@ -11,7 +11,8 @@ import java.util.Map;
 
 public class FibonacciParallelLFSR extends ParallelLfsr {
 
-    public FibonacciParallelLFSR() {
+    public FibonacciParallelLFSR(){
+        this(false);
     }
 
     public FibonacciParallelLFSR(boolean skipParallelBits) {
@@ -19,15 +20,17 @@ public class FibonacciParallelLFSR extends ParallelLfsr {
     }
 
     @Override
-    protected Lfsr createLfsr(int[] exOrIndexes, int[] outputRegisters, int registersCount) {
-        return new FibonacciLfsr(exOrIndexes, registersCount, outputRegisters);
+    protected Lfsr createLfsr(int[] feedbackPositions, int[] outputRegisters, int tabsCount) {
+        // Վերադարձնում է նոր Ֆիբոնաչիի ռեգիստրի դասի օբյեկտ համապատասխան տրված
+        // պարամետրերի
+        return new FibonacciLfsr(feedbackPositions, tabsCount, outputRegisters);
     }
 
     @Override
     protected Map<Integer, PolynomialState> calculateParallelSteps(int[] feedbackPositions, Integer tabsCount, int step) {
         Map<Integer,PolynomialState> states = new HashMap<Integer, PolynomialState>();
-        // Որոշվում են գեներացիայի այն քայլերի համարները որոնք օգտագրոծվում են
-        // զւոգահեռացման բանաձևում
+        // Որոշվում են գեներացիայի այն քայլերի համարները որոնք անհրաժեշտ են
+        // զւոգահեռացման բանաձևի իրականացման համար
         for (int feedbackPosition : feedbackPositions) {
             states.put(tabsCount - feedbackPosition + step, null);
         }

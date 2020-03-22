@@ -1,11 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="C/A Code Generator" />
+      <artifact name="C/A Global Generation" />
+      <artifact name="Correlation" />
+      <artifact name="G.A Code Generator" />
+      <artifact name="LFSR Fast Correlation" />
+      <artifact name="LFSR Generator" />
+      <artifact name="LFSR State Path" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="1. Launcher programm added" />
-    <ignored path="JavaFxApplication.iws" />
-    <ignored path=".idea/workspace.xml" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="1. Launcher programm added">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/C_A_Code_Generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/C_A_Global_Generation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Correlation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/G_A_Code_Generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LFSR_Fast_Correlation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LFSR_Generator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LFSR_State_Path.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/icons/ca_code_generator.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/caGlobalGeneration/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/correlationProgram/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/gaGenerator/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/lfsrFastCorrelation/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/lfsrGenerator/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sample/lfsrStatePath/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid10285.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/META-INF/RandomCodeGenerator.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomCodeGenerator/META-INF/RandomCodeGenerator.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/CaGlobalGenerationProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/CaProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/CorrelationProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/GaProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/LfsrFastCorrelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/LfsrGeneratorProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/LfsrStatePathProgram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/CaCodeGeneratorController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/CaCodeGeneratorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/CorrelationController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/CorrelationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/GaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/GlobalGenerationController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/GlobalGenerationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/LfsrFastCorrelationController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/LfsrFastCorrelationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/LfsrGeneratorController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/LfsrGeneratorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/LfsrStatePathController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/controllers/LfsrStatePathController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/layouts/layout_ca_generator.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/layouts/layout_ca_global_generation.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/layouts/layout_correlation.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/layouts/layout_ga.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/layouts/layout_lfsr_fast_correlation.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/layouts/layout_lfsr_generator.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/layouts/layout_lfsr_state.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/main/GlobalCaCodeParallelGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/main/GlobalCaCodeParallelGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/main/ParallelAndSequentialLfsrOutputGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/main/ParallelAndSequentialLfsrOutputGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/corellation/Correlation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/corellation/Correlation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/polynomial/base_paralle/ParallelLfsr.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/polynomial/base_paralle/ParallelLfsr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/polynomial/parallel_fibonacci_lfsr/FibonacciParallelLFSR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/polynomial/parallel_fibonacci_lfsr/FibonacciParallelLFSR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/polynomial/parallel_galois_lfsr/GaloisParallelLFSR.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RandomCodeGenerator/sample/toolkit/polynomial/parallel_galois_lfsr/GaloisParallelLFSR.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CaGlobalGenerationProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/caGlobalGeneration/CaGlobalGenerationProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CaProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/caGenerator/CaProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/CorrelationProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/correlationProgram/CorrelationProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/GaProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/gaGenerator/GaProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/LauncherProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/LauncherProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/LfsrFastCorrelation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrFastCorrelation/LfsrFastCorrelation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/LfsrGeneratorProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrGenerator/LfsrGeneratorProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/LfsrStatePathProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrStatePath/LfsrStatePathProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/CaCodeGeneratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/caGenerator/CaCodeGeneratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/CorrelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/correlationProgram/CorrelationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/GaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/gaGenerator/GaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/GlobalGenerationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/caGlobalGeneration/GlobalGenerationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/LauncherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/controllers/LauncherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/LfsrFastCorrelationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrFastCorrelation/LfsrFastCorrelationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/LfsrGeneratorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrGenerator/LfsrGeneratorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/controllers/LfsrStatePathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrStatePath/LfsrStatePathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/layouts/layout_ca_generator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/caGenerator/layout_ca_generator.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/layouts/layout_ca_global_generation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/caGlobalGeneration/layout_ca_global_generation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/layouts/layout_correlation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/correlationProgram/layout_correlation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/layouts/layout_ga.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/gaGenerator/layout_ga.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/layouts/layout_lfsr_fast_correlation.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrFastCorrelation/layout_lfsr_fast_correlation.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/layouts/layout_lfsr_generator.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrGenerator/layout_lfsr_generator.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/layouts/layout_lfsr_state.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/lfsrStatePath/layout_lfsr_state.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/main/GlobalCaCodeParallelGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/main/GlobalCaCodeParallelGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/main/ParallelAndSequentialLfsrOutputGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/main/ParallelAndSequentialLfsrOutputGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/toolkit/polynomial/base_paralle/ParallelLfsr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/toolkit/polynomial/base_paralle/ParallelLfsr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_fibonacci_lfsr/FibonacciParallelLFSR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_fibonacci_lfsr/FibonacciParallelLFSR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_galois_lfsr/GaloisParallelLFSR.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_galois_lfsr/GaloisParallelLFSR.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,138 +139,8 @@
     <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
   </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
-  </component>
   <component name="FavoritesManager">
     <favorites_list name="JavaFxApplication" />
-  </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.62939584">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/CorrelationProgram.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="152">
-                  <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/Correlation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2649">
-                  <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/CorrelationCoefficient.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/CircularCorrelation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-263">
-                  <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/controllers/CorrelationController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="129">
-                  <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/diffCodes/Correlation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="81">
-                  <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/diffCodes/CodeIndividual.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/diffCodes/CodesPopulation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/CrossCorrelation.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="503">
-                  <caret line="60" selection-start-line="8" selection-start-column="4" selection-end-line="60" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sample/CaProgram.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_launcher.fxml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="413">
-                  <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-                </state>
-              </provider>
-              <provider editor-type-id="JavaFX-Scene-Builder" />
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -195,37 +152,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>main</find>
-      <find>main(</find>
-      <find>fx:id</find>
-      <find>population</find>
-      <find>button</find>
-      <find>generationStepLb</find>
-      <find>file</find>
-      <find>offse</find>
-      <find>populationSize</find>
-      <find>exOrIndexes</find>
-      <find>values</find>
-      <find>System.out.</find>
-      <find>sy</find>
-      <find>system</find>
-      <find>generationTypeLb</find>
-      <find>COMPLETE_CA</find>
-      <find>choiceBox</find>
-      <find>generationTypeCb</find>
-      <find>onEach</find>
-      <find>replace</find>
-      <find>generation</find>
-      <find>Event</find>
-      <find>select</find>
-      <find>selec</find>
-    </findStrings>
-    <dirStrings>
-      <dir>$PROJECT_DIR$/src</dir>
-    </dirStrings>
-  </component>
   <component name="FindManager">
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
@@ -234,142 +160,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/sample/LfsrGeneratorProgram.java" />
-        <option value="$PROJECT_DIR$/src/sample/enums/CorrType.java" />
-        <option value="$PROJECT_DIR$/src/sample/enums/LFSR_TYPE.java" />
-        <option value="$PROJECT_DIR$/src/sample/enums/GenerationType.java" />
-        <option value="$PROJECT_DIR$/src/sample/main/CompareGaloisPolynomialStates.java" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/LfsrGeneratorController.java" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layout_lfsr_generator.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/main/ParallelAndSequentialLfsrOutputGeneration.java" />
-        <option value="$PROJECT_DIR$/src/sample/main/GlobalCaParallelGeneration.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/parallelCaGenerator/ParallelCa.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/satellites/SatellitesCaFactory.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/phaseSelector/SatellitePhaseSelector.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/phaseSelector/SatelliteOutputSelector.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/phaseSelector/PhaseSelector.java" />
-        <option value="$PROJECT_DIR$/src/sample/main/ParallelSatelliteCaGeneration.java" />
-        <option value="$PROJECT_DIR$/src/sample/main/GlobalCaCodeParallelGeneration.java" />
-        <option value="$PROJECT_DIR$/src/sample/GeneralCaProgram.java" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layout_ca_global_parallel_generation.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/GaController.java" />
-        <option value="$PROJECT_DIR$/src/sample/enums/LfsrGenerationType.java" />
-        <option value="$PROJECT_DIR$/src/sample/enums/CaGenerationType.java" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layout_ca_global_generation.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/phaseSelector/SatelliteOutputCollector.java" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/GlobalGenerationController.java" />
-        <option value="$PROJECT_DIR$/src/sample/CaGlobalGenerationProgram.java" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layou_lfsr_fast_correlation.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/LfsrFastCorrelation.java" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/LfsrFastCorrelation.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/base_paralle/FibonacciParallelLFSR.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/base_paralle/BaseParallelLfsr.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/generators/DataUtils.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_fibonacci_lfsr/FibonacciParallelLFSR.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_galois_lfsr/GaloisParallelLFSR.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/polynomial/base_paralle/ParallelLfsr.java" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/LfsrStatePathController.java" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layout_lfsr_fast_correlation.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/LfsrFastCorrelationController.java" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/CorrelationController.java" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layout_correlation.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layout_ca_generator.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/CaCodeGeneratorController.java" />
-        <option value="$PROJECT_DIR$/src/sample/CaProgram.java" />
-        <option value="$PROJECT_DIR$/src/sample/CorrelationProgram.java" />
-        <option value="$PROJECT_DIR$/src/sample/layouts/layout_launcher.fxml" />
-        <option value="$PROJECT_DIR$/src/sample/LauncherProgramm.java" />
-        <option value="$PROJECT_DIR$/src/sample/LauncherProgram.java" />
-        <option value="$PROJECT_DIR$/src/sample/controllers/LauncherController.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/corellation/CrossCorrelation.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/corellation/CircularCorrelation.java" />
-        <option value="$PROJECT_DIR$/src/sample/toolkit/corellation/Correlation.java" />
-      </list>
-    </option>
-  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="805" />
-  </component>
+  <component name="ProjectId" id="1ZTQrmqaoPmnDfpdKSRHJ4CD6Bz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="diffCodes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="corellation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RandomCodeGenerator" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RandomCodeGenerator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-              <item name="toolkit" type="462c0819:PsiDirectoryNode" />
-              <item name="generators" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="randomcodegenerator" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
@@ -380,18 +185,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample/layouts" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/sample" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sample/layouts" />
       <recent name="$PROJECT_DIR$/src/sample" />
+      <recent name="$PROJECT_DIR$/src/sample/layouts" />
       <recent name="$PROJECT_DIR$/src/sample/gpsToolkit" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -403,23 +208,20 @@
       <recent name="sample.controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/sample/layouts" />
-      <recent name="$PROJECT_DIR$/src/sample" />
+      <recent name="$PROJECT_DIR$/src/sample/lfsrStatePath" />
+      <recent name="$PROJECT_DIR$/src/sample/lfsrGenerator" />
+      <recent name="$PROJECT_DIR$/src/sample/lfsrFastCorrelation" />
+      <recent name="$PROJECT_DIR$/src/sample/gaGenerator" />
+      <recent name="$PROJECT_DIR$/src/sample/correlationProgram" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.LauncherProgramm">
+  <component name="RunManager" selected="JAR Application.RandomCodeGenerator.jar (1)">
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -432,89 +234,13 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration default="true" type="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaGlobalGenerationProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.CaGlobalGenerationProgram" />
-      <module name="RandomCodeGenerator" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CaProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.CaProgram" />
-      <module name="RandomCodeGenerator" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CorrelationProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.CorrelationProgram" />
-      <module name="RandomCodeGenerator" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LauncherController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.controllers.LauncherController" />
-      <module name="RandomCodeGenerator" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LauncherProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.LauncherProgram" />
-      <module name="RandomCodeGenerator" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="sample.GaProgram" />
+      <option name="MAIN_CLASS_NAME" value="sample.gaGenerator.GaProgram" />
       <module name="RandomCodeGenerator" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.controllers.*" />
+          <option name="PATTERN" value="sample.caGenerator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -540,6 +266,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RandomCodeGenerator.jar (1)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/LFSR_State_Path/RandomCodeGenerator.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomCodeGenerator.jar (2)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Correlation/RandomCodeGenerator.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomCodeGenerator.jar (3)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/G_A_Code_Generator/RandomCodeGenerator.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomCodeGenerator.jar (4)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/LFSR_Fast_Correlation/RandomCodeGenerator.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RandomCodeGenerator.jar (5)" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/LFSR_Generator/RandomCodeGenerator.jar" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -563,11 +309,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LauncherProgramm" />
-        <item itemvalue="Application.LauncherController" />
-        <item itemvalue="Application.CorrelationProgram" />
-        <item itemvalue="Application.CaProgram" />
-        <item itemvalue="Application.CaGlobalGenerationProgram" />
+        <item itemvalue="JAR Application.RandomCodeGenerator.jar (1)" />
+        <item itemvalue="JAR Application.RandomCodeGenerator.jar (5)" />
+        <item itemvalue="JAR Application.RandomCodeGenerator.jar (4)" />
+        <item itemvalue="JAR Application.RandomCodeGenerator.jar (3)" />
+        <item itemvalue="JAR Application.RandomCodeGenerator.jar (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -604,69 +350,98 @@
       <option name="project" value="LOCAL" />
       <updated>1584501976401</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1. Launcher programm added">
+      <created>1584507210107</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1584507210107</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.2067239" />
-      <window_info id="Structure" order="1" weight="0.25" />
-      <window_info id="Favorites" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32819074" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06732118" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.15147266" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Application Servers" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Problems" order="9" />
-      <window_info anchor="bottom" id="Changes" order="10" />
-      <window_info anchor="bottom" id="Profiler" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" weight="0.34221599" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32959327" />
-      <window_info anchor="bottom" id="Terminal" order="14" weight="0.16690043" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Maven" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-    </layout>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="1. Launcher programm added" />
     <option name="LAST_COMMIT_MESSAGE" value="1. Launcher programm added" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="183" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584869645238">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="479" y="183" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.806@0.23.1440.806" timestamp="1584869645238" />
+    <state x="457" y="221" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.808@0.23.1440.808" timestamp="1584866264999" />
+    <state x="457" y="216" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.811@0.23.1440.811" timestamp="1584861257143" />
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom" timestamp="1584869728273">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="214" key="GridCell.Tab.0.bottom/0.23.1440.806@0.23.1440.806" timestamp="1584869728273" />
+    <state width="953" height="20" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1584863860526" />
+    <state width="1398" height="20" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1584861977212" />
+    <state width="1398" height="214" key="GridCell.Tab.0.center" timestamp="1584869728272">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="214" key="GridCell.Tab.0.center/0.23.1440.806@0.23.1440.806" timestamp="1584869728272" />
+    <state width="953" height="20" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1584863860526" />
+    <state width="1398" height="20" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1584861977211" />
+    <state width="1398" height="214" key="GridCell.Tab.0.left" timestamp="1584869728272">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="214" key="GridCell.Tab.0.left/0.23.1440.806@0.23.1440.806" timestamp="1584869728272" />
+    <state width="953" height="20" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1584863860525" />
+    <state width="1398" height="20" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1584861977211" />
+    <state width="1398" height="214" key="GridCell.Tab.0.right" timestamp="1584869728272">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="214" key="GridCell.Tab.0.right/0.23.1440.806@0.23.1440.806" timestamp="1584869728272" />
+    <state width="953" height="20" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1584863860526" />
+    <state width="1398" height="20" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1584861977212" />
+    <state width="1398" height="122" key="GridCell.Tab.1.bottom" timestamp="1584869681422">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="122" key="GridCell.Tab.1.bottom/0.23.1440.806@0.23.1440.806" timestamp="1584869681422" />
+    <state width="1398" height="80" key="GridCell.Tab.1.bottom/0.23.1440.808@0.23.1440.808" timestamp="1584862373693" />
+    <state width="1398" height="122" key="GridCell.Tab.1.center" timestamp="1584869681421">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="122" key="GridCell.Tab.1.center/0.23.1440.806@0.23.1440.806" timestamp="1584869681421" />
+    <state width="1398" height="80" key="GridCell.Tab.1.center/0.23.1440.808@0.23.1440.808" timestamp="1584862373693" />
+    <state width="1398" height="122" key="GridCell.Tab.1.left" timestamp="1584869681420">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="122" key="GridCell.Tab.1.left/0.23.1440.806@0.23.1440.806" timestamp="1584869681420" />
+    <state width="1398" height="80" key="GridCell.Tab.1.left/0.23.1440.808@0.23.1440.808" timestamp="1584862373692" />
+    <state width="1398" height="122" key="GridCell.Tab.1.right" timestamp="1584869681421">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state width="1398" height="122" key="GridCell.Tab.1.right/0.23.1440.806@0.23.1440.806" timestamp="1584869681421" />
+    <state width="1398" height="80" key="GridCell.Tab.1.right/0.23.1440.808@0.23.1440.808" timestamp="1584862373693" />
+    <state x="257" y="23" width="1139" height="806" key="SettingsEditor" timestamp="1584869652126">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="257" y="23" width="1139" height="806" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1584869652126" />
+    <state x="0" y="23" width="1440" height="808" key="SettingsEditor/0.23.1440.808@0.23.1440.808" timestamp="1584866288656" />
+    <state x="139" y="23" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1584861259820" />
+    <state x="438" y="302" key="classpath-attribute-editor" timestamp="1584865521328">
+      <screen x="0" y="23" width="1440" height="806" />
+    </state>
+    <state x="438" y="302" key="classpath-attribute-editor/0.23.1440.806@0.23.1440.806" timestamp="1584865521328" />
+    <state x="438" y="304" key="classpath-attribute-editor/0.23.1440.811@0.23.1440.811" timestamp="1584861248663" />
+    <state x="374" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1584860813314">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="374" y="261" key="com.intellij.ide.util.TipDialog/0.23.1440.808@0.23.1440.808" timestamp="1584860813314" />
+    <state x="57" y="190" width="689" height="472" key="find.popup" timestamp="1584863330623">
+      <screen x="0" y="23" width="1440" height="808" />
+    </state>
+    <state x="57" y="190" width="689" height="472" key="find.popup/0.23.1440.808@0.23.1440.808" timestamp="1584863330623" />
+    <state x="57" y="191" width="689" height="472" key="find.popup/0.23.1440.811@0.23.1440.811" timestamp="1584862918187" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_galois_lfsr/GaloisParallelLFSR.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="Arrays.deepEquals(linearOutput,parallelOutput)" language="JAVA" custom="java.util.Arrays" />
@@ -734,529 +509,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/sample/main/RecursionVsIteration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/main/CompareFibonacciPolynomialStates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-287">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/main/GlobalCaCodeParallelGeneration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-355">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_ga.fxml">
-      <provider editor-type-id="text-editor" />
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/main/CompareGaloisPolynomialStates.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/LfsrGeneratorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/polynomial/FibonacciLfsr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/main/ParallelAndSequentialLfsrOutputGeneration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="17" column="63" lean-forward="true" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_fibonacci_lfsr/FibonacciParallelLFSR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
-          <folding>
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#5334#5360#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre/lib/ext/nashorn.jar!/jdk/nashorn/internal/objects/NativeMath.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="144" column="25" selection-start-line="144" selection-start-column="25" selection-end-line="144" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/polynomial/base_paralle/ParallelLfsr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="189" column="21" selection-start-line="189" selection-start-column="21" selection-end-line="189" selection-end-column="21" />
-          <folding>
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1189#1190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_lfsr_generator.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="1335">
-          <caret line="89" column="32" selection-start-line="89" selection-start-column="32" selection-end-line="89" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/LfsrStatePathProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" column="88" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/LfsrStatePathController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="156" column="2" selection-start-line="156" selection-start-column="2" selection-end-line="156" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/polynomial/parallel_galois_lfsr/GaloisParallelLFSR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/main/ParallelSatelliteCaGeneration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="98" column="42" selection-start-line="98" selection-start-column="42" selection-end-line="98" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/main/ParallelCaCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/javafx-src.zip!/javafx/scene/chart/LineChart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="78" column="48" selection-start-line="78" selection-start-column="36" selection-end-line="78" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="524">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/generators/CaGeneratorLegacy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/LfsrFastCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/LfsrFastCorrelationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-532">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_correlation.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/javafx-src.zip!/javafx/scene/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="8223" column="32" lean-forward="true" selection-start-line="8223" selection-start-column="32" selection-end-line="8223" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/CaCodeGeneratorController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/javafx-src.zip!/javafx/scene/control/ChoiceBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2220">
-          <caret line="194" column="51" selection-start-line="194" selection-start-column="46" selection-end-line="194" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/LfsrGeneratorProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/generators/DataUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="68" column="25" selection-start-line="68" selection-start-column="25" selection-end-line="68" selection-end-column="25" />
-          <folding>
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1480#1481#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/GlobalGenerationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5880#5881#0" expanded="true" />
-            <element signature="e#5946#5947#0" expanded="true" />
-            <element signature="e#5974#5975#0" expanded="true" />
-            <element signature="e#6006#6007#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_ca_generator.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="30" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_lfsr_fast_correlation.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="120" selection-start-line="13" selection-start-column="120" selection-end-line="13" selection-end-column="120" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_lfsr_state.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="54" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_ca_global_generation.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="11" column="133" selection-start-line="11" selection-start-column="133" selection-end-line="11" selection-end-column="133" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CaGlobalGenerationProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/GaProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/LauncherProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/LauncherController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="41" column="40" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/polynomial/polynomial_processor/Lfsr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/layouts/layout_launcher.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/generators/CaGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/CrossCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="60" selection-start-line="8" selection-start-column="4" selection-end-line="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CaProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/CorrelationProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/controllers/CorrelationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/diffCodes/CodeIndividual.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/diffCodes/CodesPopulation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/diffCodes/Correlation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="172" column="16" lean-forward="true" selection-start-line="172" selection-start-column="16" selection-end-line="172" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/CircularCorrelation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-263">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/Correlation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2649">
-          <caret line="182" column="5" selection-start-line="182" selection-start-column="5" selection-end-line="182" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/toolkit/corellation/CorrelationCoefficient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

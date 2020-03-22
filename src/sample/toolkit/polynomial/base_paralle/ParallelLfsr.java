@@ -22,7 +22,7 @@ public abstract class ParallelLfsr {
             new ArrayBlockingQueue<Runnable>(100000, false) {
             }, runnable -> {
         final Thread thread = new Thread(runnable);
-        thread.setDaemon(false);
+        thread.setDaemon(true);
         return thread;
     });
 
@@ -198,10 +198,9 @@ public abstract class ParallelLfsr {
         }
     }
 
-
-    protected abstract Lfsr createLfsr(final int[] exOrIndexes,
+    protected abstract Lfsr createLfsr(final int[] feedbackPositions,
                                        final int[] outputRegisters,
-                                       final int registersCount);
+                                       final int tabsCount);
 
     protected abstract Map<Integer, PolynomialState> calculateParallelSteps(int[] feedbackPositions, Integer tabsCount, int step);
 }

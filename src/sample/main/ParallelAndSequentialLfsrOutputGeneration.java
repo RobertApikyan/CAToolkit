@@ -6,8 +6,6 @@ import sample.utils.ElapsedTimeCounter;
 
 import java.util.Arrays;
 
-import static sample.utils.Utils.timeWatch;
-
 public class ParallelAndSequentialLfsrOutputGeneration {
 
     public static void main(String[] args) {
@@ -15,7 +13,7 @@ public class ParallelAndSequentialLfsrOutputGeneration {
   }
 
     public static void timeMeasure(){
-        final FibonacciParallelLFSR lfsr = new FibonacciParallelLFSR();
+        final FibonacciParallelLFSR lfsr = new FibonacciParallelLFSR(false);
         // Ռեգիստրի սկզբնական թաբերի արժեքներ
         final int[] initialState = new int[]{1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
         // Հետադարձ կապին մասնակցող թաբերի համարներ
